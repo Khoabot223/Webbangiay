@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+header > .logo > img {
+  max-width: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+header > .timkiem > input[type="text"] {
+  width: 500px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 200px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+header > ul {
+  margin-left: auto;
+  display: flex;
+  width: 450px;
+  margin-top: 20px;
+}
+header > ul > li {
+  list-style: none;
+  width: 200px;
+}
+header > ul > li > a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 18px;
+}
+header > ul > li:nth-child(2) {
+  margin-left: 10px;
+}
+nav > .brand {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+nav > .brand > ul {
+  display: flex;
+  margin-right: auto;
+  margin-left: 10px;
+  align-items: center;
+}
+nav > .brand > ul > li {
+  list-style: none;
+  width: 300px;
+  margin-top: 15px;
+}
+nav > .brand > ul > li > a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+
+  text-align: center;
+  padding: 14px 16px;
+}
+nav > .brand > ul > li > a:hover {
+  text-decoration-line: underline;
+}
+nav > .brand > ul > li:nth-child(6) {
+  margin-left: 49px;
+}
+.anh > img {
+  width: 100%;
+  max-height: 500px;
+}
+.gach {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  margin-top: 30px;
+}
+.gach > p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2vw;
+  padding-top: 10px;
+  color: white;
+}
+.nike1 {
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 5px 5px black;
+}
+.nike1 > img {
+  width: 100%;
+}
+.nike1 {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.nike1 > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nike1 > a {
+  margin-top: 20px;
+  background-color: #36c;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid grey;
+  width: 30px;
+  height: 20px;
+}
+.cacnike {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.adidas {
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 5px 5px black;
+}
+.adidas > img {
+  width: 100%;
+}
+.adidas {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.adidas > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.adidas > a {
+  margin-top: 20px;
+  background-color: #36c;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid grey;
+  width: 30px;
+  height: 20px;
+}
+.cacadidas {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.mlb {
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 5px 5px black;
+}
+.mlb > img {
+  width: 100%;
+}
+.mlb {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.mlb > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.mlb > a {
+  margin-top: 20px;
+  background-color: #36c;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid grey;
+  width: 30px;
+  height: 20px;
+}
+.cacmlb {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.cv {
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 5px 5px black;
+}
+.cv > img {
+  width: 100%;
+}
+.cv {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.cv > h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cv > a {
+  margin-top: 20px;
+  background-color: #36c;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid grey;
+  width: 30px;
+  height: 20px;
+}
+.caccv {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+footer {
+  margin-top: 15px;
+  background-color: rgb(85, 87, 89);
+}
+footer > .footinfor {
+  display: flex;
+  justify-content: space-around;
+}
+footer > .footinfor > .col1 > img {
+  margin-top: 15px;
+  max-width: 30%;
+}
+footer > .footinfor > .col1 {
+  margin-top: 15px;
+  text-align: center;
+}
+footer > .footinfor > .col2 {
+  margin-left: 200px;
+  margin-top: 15px;
+  text-align: center;
+}
+footer > .footinfor > .col3 {
+  margin-top: 15px;
+  text-align: center;
+}
+footer > .footinfor > .col2 > form > input[type="text"],
+footer > .footinfor > .col2 > form > input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.end {
+  background-color: grey;
+  height: 90px;
+  text-align: center;
+  font-size: 2vw;
+}
+.hinhanhbanner > img {
+  width: 100%;
+  max-height: 300px;
+}
+.hinhanhbanner {
+  background-image: url(./images/pexels-ingo-joseph-609771.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.hinhanhbanner > p {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding-top: 200px;
+}
+.hinhanhbanner > h4 {
+  text-align: center;
+}
+.hinhanhbanner > h4 > a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+}
+p {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.khachhang > img {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.khachhang {
+  width: 60%;
+  margin: 0 auto;
+}
+h4 {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
